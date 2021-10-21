@@ -6,7 +6,7 @@ main {
     margin: auto;
 }
 body{
-    background-image: url('images/PURPLE1.jpeg');
+    background-image: url('./images/PURPLE1.jpeg');
     background-size:cover;
     font-size: 18px;
     line-height: 1.5;
