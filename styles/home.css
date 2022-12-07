@@ -1,0 +1,50 @@
+h1 {
+    font-family: Didot, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 90vh;
+    width: 100vh;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+a {
+    background-color: white;
+    border: 15px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: rgb(159, 179, 249);
+    border-left-width: 35px;
+    margin-left: 80px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

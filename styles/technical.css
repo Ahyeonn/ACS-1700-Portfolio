@@ -1,0 +1,114 @@
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 90vh;
+    margin: 0;
+    overflow: hidden;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-left: 40px;
+    position: absolute;
+    overflow: hidden;
+  }
+
+#group {
+    padding-left: 30px;
+    position: relative;
+    top: 15%;
+  }
+
+#last-name {
+    position: relative;
+    left: 30%;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+ul {
+    padding: 0;
+    padding-top: 30px;
+}
+
+
+li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+
+#active {
+    color: rgb(90, 95, 237);
+    text-decoration: none;
+}
+
+.none {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+ }
+
+#group2 {
+    position: absolute;
+    left: 28%;
+    top: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.for-size h2 {
+    color: rgb(74, 73, 73);
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.for-size {
+    width: 22%;
+}
+
+.box {
+    height: 150px;
+    width: 1000px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.box p {
+    padding-left: 0px 20px;
+}
+
+.box img {
+    padding: 10px 10px;
+}
+
+.box img:nth-child(1) {
+    padding-top: 20px;
+}

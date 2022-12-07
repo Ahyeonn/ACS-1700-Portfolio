@@ -1,0 +1,148 @@
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 90vh;
+    margin: 0;
+    overflow: hidden;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-left: 40px;
+    position: absolute;
+    overflow: hidden;
+  }
+
+#group {
+    padding-left: 30px;
+    position: relative;
+    top: 15%;
+  }
+
+#last-name {
+    position: relative;
+    left: 30%;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+ul {
+    padding: 0;
+    padding-top: 30px;
+}
+
+
+li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+
+#active {
+    color: rgb(90, 95, 237);
+    text-decoration: none;
+}
+
+.none {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+ }
+
+#group2 {
+    position: absolute;
+    left: 24%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+img {
+   width: 80px;
+   border-radius: 50%;
+   border: solid;
+   border-color: rgb(93, 92, 92) ;
+}
+
+.p1 {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.experience {
+    position: relative;
+    display: flex;
+    left: 5%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.p3 {
+    width: 25%;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+#for-padding {
+    padding-top: 10px;
+}
+
+h2 {
+    position: relative;
+    color: rgb(74, 73, 73);
+    left: 3%;
+    margin: 50px 0px 25px 0px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.experience2 {
+    position: relative;
+    display: flex;
+    left: 7%;
+    margin-bottom: 30px;
+    align-items: center;
+    width: 50%;
+}
+
+.to-flex {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.p4 {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.p4:nth-child(1) {
+    font-weight: bold;
+}
+
+#education {
+    padding-bottom: 15px;
+}

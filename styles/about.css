@@ -1,0 +1,110 @@
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 90vh;
+    margin: 0;
+    overflow: hidden;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-left: 40px;
+    position: absolute;
+    overflow: hidden;
+  }
+
+#group {
+    padding-left: 30px;
+    position: relative;
+    top: 15%;
+  }
+
+#last-name {
+    position: relative;
+    left: 30%;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+ul {
+    padding: 0;
+    padding-top: 30px;
+}
+
+
+li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+
+#active {
+    color: rgb(90, 95, 237);
+    text-decoration: none;
+}
+
+#group2 {
+    position: absolute;
+    left: 24%;
+    display: flex;
+    width: 100%;
+}
+
+img {
+    height: 60vh;
+    /* border-radius: 50%; */
+    /* border: solid;
+    border-width: 2px; */
+    margin-top: 30%;
+    border-color: rgb(179, 176, 176);
+ }
+
+
+ .cloud {
+    background-image: url(/images/Cloud.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    position: relative;
+    right: 10%;
+}
+
+ #group2 p {
+    position: relative;
+    top: 13%;
+    left: 10%;
+    width: 40%;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .none {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+ }
+
