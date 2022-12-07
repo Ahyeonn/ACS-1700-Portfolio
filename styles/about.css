@@ -85,7 +85,7 @@ img {
 
 
  .cloud {
-    background-image: url(/images/Cloud.png);
+    background-image: url(./images/Cloud.png);
     background-repeat: no-repeat;
     background-size: 700px;
     position: relative;
